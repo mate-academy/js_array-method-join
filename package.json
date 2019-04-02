@@ -1,8 +1,8 @@
 {
-  "name": "js-task-boilerplate",
+  "name": "array-method-join",
   "version": "1.0.0",
-  "description": "js task boilerplate",
-  "main": "src/sum.js",
+  "description": "Custom implementation of Array.prototype.join()",
+  "main": "src/arrayMethodJoin.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js"

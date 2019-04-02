@@ -6,7 +6,8 @@ module.exports = {
   },
   rules: {
     semi: ['error', 'always', {'omitLastInOneLineBlock': true}],
-    strict: 'error'
+    strict: 'error',
+    'no-proto': 0
   },
   parserOptions: {
     sourceType: 'script'
