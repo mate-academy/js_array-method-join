@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'standart',
+  extends: 'standard',
   env: {
     node: true,
     jest: true

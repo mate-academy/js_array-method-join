@@ -5,7 +5,7 @@ const source = [0, 1, 2, 3];
 applyCustomJoin();
 
 test('`join2` is added to [].__proto__', () => {
-    expect(typeof [].join2).toBe('function');
+  expect(typeof [].join2).toBe('function');
 });
 
 test(`join with '-'`, () => {
