@@ -10,7 +10,7 @@ test('join2 is added to [].__proto__', () => {
 });
 
 test(`join2 doesn't call default join`, () => {
-  expect([].join2.toString().includes('.join'))
+  expect([].join2.toString().includes('.join('))
     .toBe(false);
 });
 
