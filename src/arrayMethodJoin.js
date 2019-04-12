@@ -2,10 +2,9 @@
 
 /**
  * Implement method join
- *
  */
 function applyCustomJoin() {
-  [].__proto__.join2 = function() {
+  [].__proto__.join2 = function(...args) {
     // write code here
   };
 }

@@ -9,6 +9,11 @@ test('join2 is added to [].__proto__', () => {
     .toBeInstanceOf(Function);
 });
 
+test(`join2 doesn't call default join`, () => {
+  expect([].join2.toString().includes('.join'))
+    .toBe(false);
+});
+
 test(`join with '-'`, () => {
   expect(source.join2('-'))
     .toBe('0-1-2-3');
