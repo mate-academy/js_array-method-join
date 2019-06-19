@@ -66,6 +66,5 @@ test(`Should work when array has null as a first element`, () => {
 
 test(`Should work with object as a separator`, () => {
   expect(source.join2({}))
-    .toBe("0[object Object]1[object Object]2[object Object]3");
+    .toBe('0[object Object]1[object Object]2[object Object]3');
 });
-
