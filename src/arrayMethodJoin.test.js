@@ -2,6 +2,7 @@
 
 const applyCustomJoin = require('./arrayMethodJoin');
 const source = [0, 1, 2, 3];
+
 applyCustomJoin();
 
 test('join2 is added to [].__proto__', () => {

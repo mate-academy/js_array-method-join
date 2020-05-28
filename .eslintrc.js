@@ -6,8 +6,5 @@ module.exports = {
   rules: {
     'no-proto': 0
   },
-  parserOptions: {
-    sourceType: 'script'
-  },
   plugins: ['jest']
 };
